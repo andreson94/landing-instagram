@@ -34,7 +34,7 @@ body{
 }
 
 .instagram-phone img{
-    height: 50rem;
+    height: 60rem;
 }
 
 .instagram-continue{
@@ -53,8 +53,9 @@ body{
     flex-direction: column;
     background-color: white;
     width: 100%;
-    padding: 1.rem 0;
+    padding: 1rem 0;
     border: 1px solid lightgray;
+    margin: 1rem 0 0;
 }
 
 .group:nth-child(1){
@@ -62,7 +63,7 @@ body{
 }
 
 .instagram-logo{
-    height: 5rem;
+    height: 8rem;
 }
 
 .profile-photo{
@@ -74,16 +75,64 @@ body{
 }
 
 .profile-photo img{
-    height: 10rem;
+    height: 8rem;
 }
 
 .instagram-login{
     background-color: #0095f6;
     color: white;
     border-radius: 4px;
+    padding: 1rem 4rem;
+    margin-top: 1rem;
 }
 
 .instagram-logout{
     color: #0095f6;
     margin-top: 1rem;
 }
+
+.notacount{
+    color: #a0a0a0;
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+p.get-app {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 4rem;
+    width: 14rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url(/images/app-store.png);
+}
+
+.app-download:nth-child(2){
+    background-image: url(/images/app-google.png);
+}
+
+
+
