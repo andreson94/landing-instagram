@@ -139,7 +139,7 @@ p.get-app {
 
 /* mobile  media queries*/
 
-@media (max-width: 1024px){
+@media (max-width: 992px){
     .instagram-wrapper{
         width: 90%;
     }
@@ -148,7 +148,7 @@ p.get-app {
 
 @media (max-width: 660px){
     .instagram-wrapper{
-        width: 50%;
+        width: 65%;
     }
 
     .instagram-phone{
