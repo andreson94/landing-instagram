@@ -155,8 +155,16 @@ p.get-app {
         display: none;
     }
 
+    .instagram-logo{
+        height: 6rem;
+    }
+
     .instagram-continue{
         width: 100%;
+    }
+
+    .profile-photo{
+        padding: 0.5rem 1rem;
     }
 
     .download{
