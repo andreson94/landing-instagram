@@ -163,6 +163,11 @@ p.get-app {
         width: 100%;
     }
 
+    .group{
+        border: 1px solid transparent;
+    }
+
+
     .profile-photo{
         padding: 0.5rem 1rem;
     }
