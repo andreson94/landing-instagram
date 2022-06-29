@@ -128,11 +128,48 @@ p.get-app {
 
 .app-download:nth-child(1){
     background-image: url(/images/app-store.png);
+    width: 200px;
 }
 
 .app-download:nth-child(2){
     background-image: url(/images/app-google.png);
+    width: 200px;
 }
 
 
+/* mobile  media queries*/
 
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 660px){
+    .instagram-wrapper{
+        width: 50%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .download{
+        flex-direction: column;
+    }
+
+    .app-download:nth-child(1){
+        width: 200px;
+        margin-top: auto;
+    }
+
+    .app-download:nth-child(2){
+        width: 200px;
+        margin: 10px auto;
+    }
+}
