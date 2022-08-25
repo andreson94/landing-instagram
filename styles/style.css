@@ -34,7 +34,7 @@ body{
 }
 
 .instagram-phone img{
-    height: 55rem;
+    height: 45rem;
 }
 
 .instagram-continue{
@@ -43,6 +43,7 @@ body{
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
+    margin-top: 4rem;
     min-height: 34rem;
 }
 
@@ -115,25 +116,24 @@ p.get-app {
 .download{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    height: 5rem;
 }
 
 .app-download{
     height: 4rem;
-    width: 14rem;
     background-size: cover;
 }
 
 .app-download:nth-child(1){
     background-image: url(/images/app-store.png);
-    width: 200px;
+    width: 14rem;
 }
 
 .app-download:nth-child(2){
     background-image: url(/images/app-google.png);
-    width: 200px;
+    width: 14rem;
 }
 
 
@@ -174,15 +174,18 @@ p.get-app {
 
     .download{
         flex-direction: column;
+        height: auto;
     }
 
     .app-download:nth-child(1){
-        width: 200px;
-        margin-top: auto;
+        width: 12rem;
+        height: 3.5rem;
+        margin-top: 1rem;
     }
 
     .app-download:nth-child(2){
-        width: 200px;
-        margin: 10px auto;
+        width: 12rem;
+        height: 3.5rem;
+        margin-top: 1rem;
     }
 }
