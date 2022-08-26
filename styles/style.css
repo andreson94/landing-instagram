@@ -118,22 +118,22 @@ p.get-app {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
+    height: 100px;
 }
 
 .app-download{
-    height: 4rem;
+    height: 50px;
     background-size: cover;
 }
 
 .app-download:nth-child(1){
     background-image: url(/images/app-store.png);
-    width: 14rem;
+    width: 170px;
 }
 
 .app-download:nth-child(2){
     background-image: url(/images/app-google.png);
-    width: 14rem;
+    width: 170px;
 }
 
 
@@ -146,7 +146,22 @@ p.get-app {
 
 }
 
-@media (max-width: 660px){
+@media (max-width:760px) {
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .app-download{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 520px){
     .instagram-wrapper{
         width: 65%;
     }
@@ -178,14 +193,14 @@ p.get-app {
     }
 
     .app-download:nth-child(1){
-        width: 12rem;
-        height: 3.5rem;
+        width: 170px;
+        height: 50px;
         margin-top: 1rem;
     }
 
     .app-download:nth-child(2){
-        width: 12rem;
-        height: 3.5rem;
+        width: 170px;
+        height: 50px;
         margin-top: 1rem;
     }
 }
